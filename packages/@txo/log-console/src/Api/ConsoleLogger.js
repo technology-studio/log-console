@@ -6,15 +6,13 @@
  * @flow
  */
 
-'use strict'; // eslint-disable-line
-
 import {
   type Options,
   type Level,
   type WriteLog,
   levels,
   configManager,
-} from '@txo-peer-dep/log/Config'
+} from '@txo-peer-dep/log'
 
 export const LOGGER_KEY = 'console'
 
