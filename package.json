@@ -34,8 +34,10 @@
   "devDependencies": {
     "@babel/cli": "^7.6.0",
     "@babel/core": "^7.6.0",
+    "@txo-peer-dep/log": "^3.0.0",
     "@txo/babel-preset": "^1.0.0",
     "@txo/glow": "^1.2.3",
+    "@txo/log": "^1.0.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.1.0",
