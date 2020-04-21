@@ -26,7 +26,6 @@
     "build:watch:flow": "yarn flow-copy-source --verbose -w -i '**/__tests__/**' src lib"
   },
   "dependencies": {
-    "@txo/log": "^1.0.0"
   },
   "peerDependencies": {
     "@txo-peer-dep/log": "^3.0.0"
