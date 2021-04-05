@@ -1,6 +1,6 @@
 {
   "name": "@txo/log-console",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Technology Studio - Log console",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -23,8 +23,7 @@
     "build:watch:lib": "yarn tsc --watch",
     "prepare": "yarn build"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
     "@txo-peer-dep/log": "^4.0.0"
   }
