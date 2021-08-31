@@ -628,6 +628,11 @@
   resolved "https://registry.yarnpkg.com/@txo/config-manager/-/config-manager-3.0.1.tgz#cf6bc6047a67f22eeae763713d28e4c3b446132c"
   integrity sha512-L8Y8H83zn12fuhhjmwRsDo9Bp6jMiSaUQlbSVcpZHKcfESHpz+m4Mw65s35YP6sAUeFr2I5Gl9xU/Pf7S0JmAQ==
 
+"@txo/log-console@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@txo/log-console/-/log-console-2.0.0.tgz#9dd0b90af3b4380fe1107bfce3dae908a75d312a"
+  integrity sha512-p9ece7Z4Mtcz9K9bL7SU2DgIPmGNmST5eiLSX9cAEl1F3WyrSAswxwUQtBggG6esyk/kv4TMifA2qu7Njgf70A==
+
 "@types/babel__core@^7.0.0", "@types/babel__core@^7.1.7":
   version "7.1.14"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.14.tgz#faaeefc4185ec71c389f4501ee5ec84b170cc402"
@@ -5618,9 +5623,9 @@ table@^6.0.4:
     string-width "^4.2.0"
 
 tar@^6.0.2, tar@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/tar/-/tar-6.1.0.tgz#d1724e9bcc04b977b18d5c573b333a2207229a83"
-  integrity sha512-DUCttfhsnLCjwoDoFcI+B2iJgYa93vBnDUATYEeRx6sntCTdN01VnqsIuTlALXla/LWooNg0yEGeB+Y8WdFxGA==
+  version "6.1.11"
+  resolved "https://registry.yarnpkg.com/tar/-/tar-6.1.11.tgz#6760a38f003afa1b2ffd0ffe9e9abbd0eab3d621"
+  integrity sha512-an/KZQzQUkZCkuoAA64hM92X0Urb6VpRhAFllDzz44U2mcD5scmT3zBc4VgVpkugF580+DQn8eAFSyoQt0tznA==
   dependencies:
     chownr "^2.0.0"
     fs-minipass "^2.0.0"
