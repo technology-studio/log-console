@@ -628,6 +628,11 @@
   resolved "https://registry.yarnpkg.com/@txo/config-manager/-/config-manager-3.0.1.tgz#cf6bc6047a67f22eeae763713d28e4c3b446132c"
   integrity sha512-L8Y8H83zn12fuhhjmwRsDo9Bp6jMiSaUQlbSVcpZHKcfESHpz+m4Mw65s35YP6sAUeFr2I5Gl9xU/Pf7S0JmAQ==
 
+"@txo/log-console@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@txo/log-console/-/log-console-2.0.0.tgz#9dd0b90af3b4380fe1107bfce3dae908a75d312a"
+  integrity sha512-p9ece7Z4Mtcz9K9bL7SU2DgIPmGNmST5eiLSX9cAEl1F3WyrSAswxwUQtBggG6esyk/kv4TMifA2qu7Njgf70A==
+
 "@types/babel__core@^7.0.0", "@types/babel__core@^7.1.7":
   version "7.1.14"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.14.tgz#faaeefc4185ec71c389f4501ee5ec84b170cc402"
@@ -4017,9 +4022,9 @@ minimatch@^3.0.4:
     brace-expansion "^1.1.7"
 
 minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
+  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
 minipass-collect@^1.0.2:
   version "1.0.2"
