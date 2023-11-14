@@ -5,25 +5,31 @@
 **/
 
 import {
-  Options,
+  type Options,
   Level,
-  WriteLog,
+  type WriteLog,
   configManager,
-  Payload,
+  type Payload,
 } from '@txo-peer-dep/log'
 
 export const LOGGER_KEY = 'console'
 
-const levelToString = (level: Level): string => (
-  {
+const levelToString = (level: Level): string => {
+  const levelString = {
     [Level.NONE]: 'NONE',
     [Level.DEBUG]: 'DEBUG',
     [Level.INFO]: 'INFO',
     [Level.WARNING]: 'WARNING',
     [Level.ERROR]: 'ERROR',
-  }[level] || (level?.toString()) || ''
-)
+  }[level]
+  return (
+    level != null
+      ? levelString ?? level.toString()
+      : ''
+  )
+}
 
+// eslint-disable-next-line no-console
 export const writeLogFactory = (consoleLogger = console.log): WriteLog => (
   level: Level,
   name: string,
