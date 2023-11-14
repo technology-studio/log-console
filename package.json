@@ -37,9 +37,7 @@
     "node": ">=18.0.0"
   },
   "dependencies": {},
-  "peerDependencies": {
-    "@txo-peer-dep/log": "^4.0.3"
-  },
+  "peerDependencies": {},
   "devDependencies": {
     "@txo-peer-dep/log": "^4.0.3",
     "@txo/commitlint": "^1.0.6",
